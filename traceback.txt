@@ -1,0 +1,29 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 67, in script call
+  File "game/scripts/script-ch5.rpy", line 289, in script
+  File "game/script.rpy", line 65, in <module>
+IOError: Oh jeez...I didn't break anything, did I? Hold on a sec, I can probably fix this...I think...
+Actually, you know what? This would probably be a lot easier if I just deleted her. She's the one who's making this so difficult. Ahaha! Well, here's goes nothing.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 67, in script call
+  File "game/scripts/script-ch5.rpy", line 289, in script
+  File "C:\Users\Xander\Documents\GitHub\Doki-Doki-Modding-Club\renpy\ast.py", line 814, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\Xander\Documents\GitHub\Doki-Doki-Modding-Club\renpy\python.py", line 1719, in py_exec_bytecode
+    exec bytecode in globals, locals
+  File "game/script.rpy", line 65, in <module>
+  File "C:\Users\Xander\Documents\GitHub\Doki-Doki-Modding-Club\renpy\exports.py", line 1980, in file
+    return renpy.loader.load(fn)
+  File "C:\Users\Xander\Documents\GitHub\Doki-Doki-Modding-Club\renpy\loader.py", line 543, in load
+    raise IOError("Couldn't find file '%s'." % name)
+IOError: Oh jeez...I didn't break anything, did I? Hold on a sec, I can probably fix this...I think...
+Actually, you know what? This would probably be a lot easier if I just deleted her. She's the one who's making this so difficult. Ahaha! Well, here's goes nothing.
+
+Windows-8-6.2.9200
+Ren'Py 6.99.12.4.2187
+Doki Doki Literature Club! 1.1.0
